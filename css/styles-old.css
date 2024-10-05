@@ -1,7 +1,6 @@
 /* ==================== FOOTER STYLES ======================= */
 .page-footer {
   padding: 100px 0;
-  background-color: #2e2f42;
 }
 
 .footer-container {
@@ -13,92 +12,21 @@
   margin-right: 120px;
 }
 
-.footer-logo .color-logo {
-  color: #f4f4fd;
-}
-
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
 .text-footer {
   max-width: 264px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  margin-bottom: 16px;
-}
-
-.text-icon {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #fff;
-  margin-bottom: 16px;
-}
-
-.footer-social-list {
-  display: flex;
-  gap: 16px;
-}
-
-.footer-social-item {
-  width: 40px;
-  height: 40px;
-}
-
-.footer-social-link {
-  display: flex;
-  border-radius: 50%;
-  background-color: #4d5ae5;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: #31d0aa;
-}
-
-.footer-icon {
-  fill: #f4f4fd;
+  /* margin-bottom: 16px; */
 }
 
 .subscribe-footer-container {
   margin-left: auto;
 }
 
-.text-subscribe {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #fff;
-  margin-bottom: 16px;
-}
-
 .form-footer {
-  display: flex;
   gap: 24px;
 }
 
 .form-subscribe-input {
-  border: 1px solid #fff;
-  background-color: transparent;
-  border-radius: 4px;
   width: 264px;
-  height: 40px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  padding-left: 16px;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: #fff;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-subscribe-input:focus {
@@ -110,7 +38,7 @@
   color: #fff;
 }
 
-.subscribe-btn {
+/* .subscribe-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,7 +63,7 @@
 .subscribe-btn:hover,
 .subscribe-btn:focus {
   background-color: #31d0aa;
-}
+} */
 /* ========================================= MODAL ================================================= */
 .backdrop {
   position: fixed;
